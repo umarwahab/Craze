@@ -1,0 +1,21 @@
+.seo-section {
+    width: 97%;
+    margin: 70px auto;
+}
+
+.seo-section .content .col h1{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+margin: 10px 0;
+}
+.seo-section .content .col p{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #858585;
+/* height: 100px; */
+margin: 0 0 20px 0;
+}

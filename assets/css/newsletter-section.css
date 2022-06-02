@@ -1,0 +1,128 @@
+
+.newsletter-section{
+    width: 100%;
+  
+}
+.newsletter-section .content{
+    width: 98%;
+    height: 282px;
+    background: #3581EA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin: auto;
+    
+  
+}
+.newsletter-section .content .col-1 { 
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 0 0 50px;
+}
+.newsletter-section .content .col-1 .heading {
+    display: flex;
+    width: 477px;
+    height: 56px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.newsletter-section .content .col-1 h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 56px;
+    color: #FFFFFF;
+    letter-spacing: -0.04em;
+    margin: 0;
+}
+
+.newsletter-section .content .col-1 .form{
+
+box-sizing: border-box;
+border-radius: 8px;
+position: relative;
+width: 473px;
+height: 48px;
+margin-top: 20px;
+}
+.form input[type="email"] {
+    border: 0;
+    width: 330px;
+    height: 45px;
+    border-radius: 8px;
+    text-indent: 40px;
+    outline: none;
+}
+
+.form i.fa {
+    color: #b5b1b1;
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form button{
+    width: 97px;
+    height: 48px;
+    background: #0C356F;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.newsletter-section .content .col-2{
+position: relative;
+width: 50%;
+display: flex;
+justify-content: center;
+
+}
+.newsletter-section .container .content .col-1 p {
+    width: 472px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 23px;
+    color: #C8DCF9;
+    text-align: justify;
+    margin: 0;
+}
+.newsletter-section .content .col-2 .eclipse{
+    position: absolute ;
+    width: 316px;
+    height: 316px;
+    background: #FFE923;
+    border-radius: 166px;
+    top: -34px;
+}
+
+.newsletter-section .content .col-2 .eclipse .circle{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    background: #FF8154;
+    right: -7px;
+    top: 53px;
+    border-radius: 25px;
+    color: #FF8154;
+    text-align: center;
+}
+
+.newsletter-section .content .col-2 .eclipse img{
+width: 270px;
+height: 340px;
+position: absolute;
+bottom: 0px;
+left: 35px;
+}

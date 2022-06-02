@@ -1,0 +1,39 @@
+.usp-section {
+    width: 100%;
+    background: #EDF3FD;
+}
+.usp-section .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 0;
+}   
+
+.usp-section .content .col{
+
+    width: 25%;
+    height: auto;
+    padding: 20px 10px;
+}
+.usp-section .content .col img{
+  
+        display: block;
+        max-width: 100%;
+        height: auto;
+      
+}
+
+.usp-section .content .col h4{
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+margin: 10px 0;
+}
+
+.usp-section .content span{
+    font-size: 14px;
+line-height: 24px;
+color: #555555;
+}
+

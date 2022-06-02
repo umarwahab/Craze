@@ -1,0 +1,43 @@
+body{
+    font-family: "Work Sans";
+}
+.wrapper{
+    width: 100%;
+}
+.topbar{
+    width: 100%;
+    background: #EDF3FD;
+}
+.container{
+    max-width: 1060px;
+    margin: auto;
+}
+.topbar .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.topbar .container .content i{
+margin: 0 3px;
+color:#0C356F;
+}
+.topbar .container .content p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #0C356F;
+    margin: 10px 0;
+}
+.topbar i.fa.fa-truck {
+    font-size: 25px;
+    margin: 0 6px;
+}
+
+.topbar .content span{
+    font-weight: 600;
+}
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}

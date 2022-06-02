@@ -1,0 +1,113 @@
+
+.carousel-section {
+    margin: auto;
+}
+.carousel-section .service-list-car .owl-stage-outer:after {
+    content: '';
+    position: absolute;
+    width: 125px;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(270deg, #fbf5f5 0%, rgba(304,245,245,0.0) 100%); */
+}
+.carousel-section .service-list-car .owl-nav {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    display: block;
+    width: 100%;
+	display: none;
+}
+.carousel-section .service-list-car .owl-nav [class*='owl-'] {
+    font-size: 18px;
+    background: none;
+    cursor: pointer;
+    outline: 0;
+    background: #FF5A00;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    border-radius: 50%;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+.carousel-section .service-list-car .owl-nav [class*='owl-']:hover {
+    background: #182953;
+}
+.carousel-section .service-list-car .owl-nav button.owl-prev {
+    left: 5px;
+    position: absolute;
+    
+}
+.carousel-section .service-list-car button.owl-next {
+    right: 5px;
+    position: absolute;
+}
+.carousel-section .service-list-car button.disabled {
+    opacity: 0;
+}
+.service-list-car .owl-stage-outer {
+    padding: 20px 0;
+}
+.service-list-car .item img{
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+.service-list-car .item img:hover {
+    transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -o-transform: scale(1.09);
+	transform:none;
+}
+
+@media only screen and (max-width: 768px) {
+}/*768px*/
+
+
+
+	.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+.service-list-car .owl-stage-outer {
+    padding: 0 0 0 0;
+    margin:0;
+	    position: relative;
+}
+	.btn_n{
+	margin:25px;
+	padding: 10px 50px;
+    border-radius: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #FCB847;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+	border: none;
+	}
+.ver-line{
+border-left: 6px solid black;
+height:200px;
+position:absolute;
+left:10%;
+margin:20px 0 0 0;
+}
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+

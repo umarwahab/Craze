@@ -1,0 +1,86 @@
+.product-banner {
+    width: 100%;
+}
+.product-banner .content{
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #D6D6D6;
+    margin: 60px 10px;
+    position: relative;
+    height: 350px;
+}
+.product-banner .content .col-1{
+    width: 50%;
+    /* height: 350px; */
+    /* background: url('../img/product-banner.png'); */
+    border-radius: 20px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    color: #ffff;
+}
+.product-banner img {
+    width: 100%;
+    object-fit: fill;
+    display: block;
+    height: 100%;
+}
+
+.product-banner .content .col-2{
+    width:50%;
+    padding: 0;
+    /* height: 276px; */
+    /* position: absolute;
+    right: 220px; */
+}
+.product-banner .content .col-2 h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #0C356F;
+    width: 315px;
+    margin: 15px 0;
+}
+.product-banner .content .col-2 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    margin: 0 0 10px 0;
+    padding: 0 10px;
+}
+
+.product-banner .content .col-2 button {
+    background-color: #3581EA;
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 128px;
+}
+
+.product-banner .eclipse-1{
+    position: absolute;
+    bottom: 30px;
+    left: -35px;
+    width: 64px;
+    height: 64px;
+    background: #C8DCF9;
+    border-radius: 42px;
+}
+
+.product-banner .eclipse-2 {
+    position: absolute;
+    top: -22px;
+    right: 60px;
+    width: 42px;
+    height: 42px;
+    background: #9BE17A;
+    border-radius: 42px;
+}
+
